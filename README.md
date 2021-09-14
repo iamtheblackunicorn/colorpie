@@ -12,9 +12,10 @@ to the console in my applications, I decided to write a library that would let m
 
 ## FEATURES :test_tube:
 
-- fast and easy to use
-- simple project structure
-- optimized for performance
+- Fast and easy to use!
+- Simple project structure!
+- Optimized for performance!
+- Works on every platform!
 
 ## INSTALLATION :inbox_tray:
 
