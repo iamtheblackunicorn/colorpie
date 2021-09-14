@@ -1,0 +1,8 @@
+.DS_Store
+*.whl
+__pycache__/*
+__pycache__
+*.pyc
+colorpie.egg-info
+dist
+colorpie_iamtheblackunicorn.egg-info
