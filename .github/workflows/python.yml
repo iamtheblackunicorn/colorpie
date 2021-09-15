@@ -24,8 +24,3 @@ jobs:
         run: "python -m pip install ./dist/*.whl"
       - name: "Run tests"
         run: "python tests/tests.py"
-      - name: Publish distribution 📦 to PyPI
-        if: startsWith(github.ref, 'refs/tags')
-        uses: pypa/gh-action-pypi-publish@master
-        with:
-          password: ${{ secrets.PYPI_API_TOKEN }}
