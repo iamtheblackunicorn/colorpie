@@ -78,9 +78,9 @@ def emojiPool():
 
 # This method returns an emoji by its name given
 # as a string.
-def getEmoji():
+def getEmoji(emojiName):
   stdEmojiPool = emojiPool()
-  userEmoji = stdEmojiPool[emoji]
+  userEmoji = stdEmojiPool[emojiName]
   return userEmoji
 
 # This method prints an emoji given by its name
