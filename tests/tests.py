@@ -40,7 +40,7 @@ def testColorPrinting():
 # variable out as a pictogram.
 def testEmojiFetching():
     for key in emojiPool():
-        result = getEmoji(emojiPool()[key])
+        result = getEmoji(key)
         print(result)
 
 # References the "printEmoji" function, iterates on
@@ -50,7 +50,7 @@ def testEmojiFetching():
 # as a pictogram.
 def testEmojiPrinting():
     for key in emojiPool():
-        printEmoji(emojiPool()[key])
+        printEmoji(key)
 
 # Main function to be run
 # when the script is called.
