@@ -8,8 +8,6 @@
 # in form of a map in four select categories.
 def emojiPool():
   pool = {
-  
-  # Faces.
   'grinningFace': '\U0001f600',
   'laughCry': '\U0001f602',
   'upsideDownFace': '\U0001f643',
@@ -22,8 +20,6 @@ def emojiPool():
   'crazyFace': '\U0001f92a',
   'thinkingFace': '\U0001f914',
   'naughtyface': '\U0001f608',
-
-  # Animals
   'seeNoEvil': '\U0001f648',
   'animalGorilla': '\U0001f98d',
   'windCloud': '\U0001f4A8',
@@ -35,8 +31,6 @@ def emojiPool():
   'pandaFace': '\U0001f43c',
   'bearFace': '\U0001f43b',
   'tigerFace': '\U0001f42f',
-
-  # Symbols.
   'redHeart': '\U0002764',
   'blackHeart': '\U0001f5a4',
   'backArrow': '\U0001f519',
@@ -48,8 +42,6 @@ def emojiPool():
   'divideSign': '\U0002797',
   'minusSign': '\U0002796',
   'tickSign': '\U0002714',
-
-  # Tools.
   'kitchenKnife': '\U0001f52a',
   'scissors': '\U0002702',
   'bomb': '\U0001f4a3',
@@ -61,8 +53,6 @@ def emojiPool():
   'pick': '\U00026cf',
   'woodSaw': '\U0001fa9a',
   'axe': '\U0001fa93',
-
-  # Pride.
   'prideFlag': '\U0001f3f3',
   'transFlag': '\U00026a7',
   'rainbow': '\U0001f308',
@@ -73,8 +63,6 @@ def emojiPool():
   'confetti': '\U0001f38a',
   'maleBunnies': '\U0001f46f',
   'kiss': '\U0001f48b',
-
-  # Art.
   'yarn': '\U0001f9f6',
   'headPhones': '\U0001f3a7',
   'piano': '\U0001f3b9',
