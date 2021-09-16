@@ -5,7 +5,7 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / 'README.md').read_text(encoding='utf-8')
 setup(
     name='colorpie',
-    version='2.0.0',
+    version='3.0.0',
     description='Make the snake discover the rainbow',
     long_description=long_description,
     long_description_content_type='text/markdown',

@@ -48,6 +48,8 @@ To use ***Color Pie*** in your projects, simply import it like this:
 import colorpie
 ```
 
+### COLORS
+
 To get a string of a certain color from an existing string use the library's functions like this:
 
 ```python
@@ -75,6 +77,112 @@ Currently supported colors are:
 - Black
 - Yellow
 
+### EMOJIS
+
+If you want to use a certain emoji in your project, you may do so with the help of two methods!
+The `getEmoji` method and the `printEmoji` method.
+
+If you want to just place an emoji somewhere in a string, you can do this best by using the `getEmoji` method like this:
+
+```python
+from colorpie import getEmoji
+myEmoji = getEmoji('catFace')
+# There's a cat face emoji in this variable now.
+```
+
+If you want to just print an emoji somewhere, you can do this best by using the `printEmoji` method like this:
+
+```python
+from colorpie import printEmoji
+printEmoji('catFace')
+# A cat face emoji is printed.
+```
+
+For a complete list of the emoji name strings, check the table below:
+
+#### Faces
+
+- `grinningFace`
+- `laughCry`
+- `upsideDownFace`
+- `heartsInFace`
+- `smilingFace`
+- `haloFace`
+- `winkingFace`
+- `kissingFace`
+- `angryFace`
+- `crazyFace`
+- `thinkingFace`
+- `naughtyface`
+
+#### Animals
+
+- `seeNoEvil`
+- `animalGorilla`
+- `windCloud`
+- `sweatDroplets`
+- `dogFace`
+- `unicornHead`
+- `catFace`
+- `horseHead`
+- `pandaFace`
+- `bearFace`
+- `tigerFace`
+
+#### Symbols
+
+- `redHeart`
+- `blackHeart`
+- `backArrow`
+- `soonArrow`
+- `topArrow`
+- `infinitySign`
+- `multiplySign`
+- `plusSign`
+- `divideSign`
+- `minusSign`
+- `tickSign`
+
+#### Tools
+
+- `kitchenKnife`
+- `scissors`
+- `bomb`
+- `gun`
+- `hammer`
+- `wrench`
+- `hammerAndWrench`
+- `hammerAndPick`
+- `pick`
+- `woodSaw`
+- `axe`
+
+#### Pride
+
+- `prideFlag`
+- `transFlag`
+- `rainbow`
+- `peopleKissing`
+- `party`
+- `coupleHeart`
+- `sparkles`
+- `confetti`
+- `maleBunnies`
+- `kiss`
+
+#### Art
+
+- `yarn`
+- `headPhones`
+- `piano`
+- `bowAndArrow`
+- `paintBrush`
+- `paintPalette`
+- `sewingNeedle`
+- `threadRoll`
+- `syringe`
+- `pill`
+
 ## CHANGELOG
 
 ### Version 1.0.0: Initial release
@@ -86,6 +194,11 @@ Currently supported colors are:
 
 - Visual optimizations for PyPi
 - Better and more in-depth documentation
+
+### Version 3.0.0: The Emoji Update!
+
+- This update brings a set of 66 select emojis in 6 categories to your terminal.
+- Speed and documentation optimizations.
 
 ## NOTE
 
