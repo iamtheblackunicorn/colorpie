@@ -50,7 +50,7 @@ def emojiPool():
   'wrench': '\U0001f527',
   'hammerAndWrench': '\U0001f6e0',
   'hammerAndPick': '\U00002692',
-  'pick': '\U00026cf',
+  'pick': '\U000026cf',
   'woodSaw': '\U0001fa9a',
   'axe': '\U0001fa93',
   'prideFlag': '\U0001f3f3',
