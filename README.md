@@ -8,7 +8,7 @@
 
 Since I've never seen the point in making things uselessly complicated and I quite like printing colored strings
 to the console in my applications, I decided to write a library that would let me do just that. I know projects like
-***Colorama*** have already solved this problem and give people more options but this is for the simple folks among us.
+***Colorama*** have already solved this problem and give people more options but this is for the simple folks among us. Aaand there's also a bunch of emojis.
 
 ## FEATURES
 
@@ -16,6 +16,7 @@ to the console in my applications, I decided to write a library that would let m
 - Simple project structure!
 - Optimized for performance!
 - Works on every platform!
+- 66 Emojis in six select categories!
 
 ## INSTALLATION
 
@@ -197,7 +198,7 @@ For a complete list of the emoji name strings, check the table below:
 
 ### Version 3.0.0: The Emoji Update!
 
-- This update brings a set of 66 select emojis in 6 categories to your terminal.
+- This update brings a set of 66 select emojis in six different categories to your terminal.
 - Speed and documentation optimizations.
 
 ## NOTE

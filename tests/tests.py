@@ -37,7 +37,7 @@ def testColorPrinting():
 # References the "getEmoji" function, iterates on
 # the "emojiPool" function, instantiates an emoji
 # unicode string variable and prints this string
-# variable out.
+# variable out as a pictogram.
 def testEmojiFetching():
     for key in emojiPool():
         result = getEmoji(emojiPool()[key])
@@ -46,7 +46,8 @@ def testEmojiFetching():
 # References the "printEmoji" function, iterates on
 # the "emojiPool" function, and prints out the emoji
 # with unicode sequennce "key" from the value of
-# the dictionary provided by the "emojiPool" function.
+# the dictionary provided by the "emojiPool" function
+# as a pictogram.
 def testEmojiPrinting():
     for key in emojiPool():
         printEmoji(emojiPool()[key])

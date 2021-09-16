@@ -5,7 +5,7 @@
 # for all emojis.
 
 # This method returns a database of 66 select emojis
-# in form of a map in four select categories.
+# in form of a dictionary in six select categories.
 def emojiPool():
   pool = {
   'grinningFace': '\U0001f600',
@@ -36,7 +36,7 @@ def emojiPool():
   'backArrow': '\U0001f519',
   'soonArrow': '\U0001f51c',
   'topArrow': '\U0001f51d',
-  'infinitySign': '\U000267e',
+  'infinitySign': '\U0000267e',
   'multiplySign': '\U00002716',
   'plusSign': '\U00002795',
   'divideSign': '\U00002797',
@@ -76,14 +76,14 @@ def emojiPool():
   }
   return pool
 
-# This method returns an emoji by its name as
-# a string.
+# This method returns an emoji by its name given
+# as a string.
 def getEmoji():
   stdEmojiPool = emojiPool()
   userEmoji = stdEmojiPool[emoji]
   return userEmoji
 
-# This method prints an emoji by its name
+# This method prints an emoji given by its name
 # to the console.
 def printEmoji(emojiName):
   userEmoji = getEmoji(emojiName)
